@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    margin: 0%;
+}
+
+*{
+    
+    margin: 0%;
+}
+
+#level{
+    width: 20%;
+    height: 20vh;
+}
+
+#level > h2{
+    box-sizing: border-box;
+    padding-left: 3vh;
+    padding-top: 3vh;
+}
+
+
+
+#title{
+    width: 60%;
+    height: 20vh;
+}
+
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3vh 0vh;
+}
+
+#score{
+    width: 20%;
+    height: 20vh;
+ 
+}
+
+#score > h2{
+    float: right;
+    box-sizing: border-box;
+    padding-right: 7vh;
+    padding-top: 3vh;
+}
+
+.font{
+    font-family: "Silkscreen", sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+    grid-template-rows: repeat(4, 20vh);
+    margin: 0%;
+}
+
+.active-button{
+    background-color:#C1E1C1;
+}
+
+.lose-condition{
+    background-color: #FAA0A0;
+}
+
+.blink{
+    color:red;
+    font-size: 4vh;
+}
