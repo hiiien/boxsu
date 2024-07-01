@@ -110,6 +110,7 @@ $(document).on("keydown", ()=>{
     if(!gameStarted){
         $("div").removeClass("lose-condition");
         $("h1").text("Click the Green Boxes To Stay Alive");
+        $("#level > h2").text("Level " + level);
         gameInterval = setInterval(difficultySelect, 20000);
         intervalId = setInterval(chooseBox, boxColorChangeSpeed);
         intervalCheckLossId = setInterval(checkLoss, 100);
